@@ -1,3 +1,11 @@
+You've found the only ISSE that builds on the net. Using Fedora 23 Workstation 64 bit
+
+See what I did in HISTORY
+
+See how to build in BUILD
+
+Since then I undid all the submodules and checked everything into this repo.
+
 ISSE - Interactive Sound Source Separation Editor (pronounced 'ice')
  
 About: 
