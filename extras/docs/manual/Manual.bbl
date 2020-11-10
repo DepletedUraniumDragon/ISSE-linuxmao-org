@@ -1,0 +1,23 @@
+\begin{thebibliography}{1}
+
+\bibitem{Bryan2013A}
+N.~J. Bryan and G.~J. Mysore.
+\newblock Interactive user-feedback for sound source separation.
+\newblock In {\em International Conference on Intelligent User-Interfaces,
+  Workshop on Interative Machine Learning (Extended Abstract/Workshop Paper)},
+  March 2013.
+
+\bibitem{Bryan2013B}
+N.~J. Bryan and G.~J. Mysore.
+\newblock An efficient posterior regularized latent variable model for
+  interactive sound source separation.
+\newblock In {\em International Conference on Machine Learning}, June 2013.
+
+\bibitem{Bryan2013C}
+N.~J. Bryan and G.~J. Mysore.
+\newblock Interactive refinement of supervised and semi-supervised sound source
+  separation estimates.
+\newblock In {\em IEEE International Conference on Acoustics, Speech, and
+  Signal Processing}, May 2013.
+
+\end{thebibliography}

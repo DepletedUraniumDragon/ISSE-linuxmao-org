@@ -1,0 +1,4 @@
+Matlab code to perform some of the same functionality of the main ISSE C++ code. 
+The code includes some GUI functionality, the em update algorithm, and a short-time
+Fourier transform method.
+

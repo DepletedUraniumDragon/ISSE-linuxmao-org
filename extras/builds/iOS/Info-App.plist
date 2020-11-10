@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist>
+  <dict>
+    <key>CFBundleDocumentTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>isse</string>
+        </array>
+        <key>CFBundleTypeIconFile</key>
+        <string>FileIcon.icns</string>
+        <key>CFBundleTypeMIMETypes</key>
+        <array>
+          <string>application/isse-project</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>ISSE Project</string>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>LSIsAppleDefaultForType</key>
+        <true/>
+      </dict>
+      <dict>
+        <key>CFBundleTypeExtensions</key>
+        <array>
+          <string>wav</string>
+          <string>wave</string>
+        </array>
+        <key>CFBundleTypeIconFile</key>
+        <string>FileIcon.icns</string>
+        <key>CFBundleTypeMIMETypes</key>
+        <array>
+          <string>audio/wav</string>
+          <string>audio/x-wav</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>WAV Audio File</string>
+        <key>CFBundleTypeOSTypes</key>
+        <array>
+          <string>WAV </string>
+          <string>wav </string>
+          <string>WAVE</string>
+          <string>wave</string>
+        </array>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+      </dict>
+    </array>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <false/>
+    <key>CFBundleExecutable</key>
+    <string>${EXECUTABLE_NAME}</string>
+    <key>CFBundleIdentifier</key>
+    <string>edu.stanford.ccrma</string>
+    <key>CFBundleName</key>
+    <string>ISSE</string>
+    <key>CFBundleDisplayName</key>
+    <string>ISSE</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>CFBundleShortVersionString</key>
+    <string>0.2.0</string>
+    <key>CFBundleVersion</key>
+    <string>0.2.0</string>
+    <key>NSHumanReadableCopyright</key>
+    <string></string>
+    <key>NSHighResolutionCapable</key>
+    <true/>
+    <key>UIFileSharingEnabled</key>
+    <true/>
+    <key>UIStatusBarHidden</key>
+    <true/>
+    <key>UIRequiresFullScreen</key>
+    <true/>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>UIBackgroundModes</key>
+    <array/>
+  </dict>
+</plist>

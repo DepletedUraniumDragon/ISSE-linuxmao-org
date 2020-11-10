@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ISSE\Source\Separation Core\api">
+      <UniqueIdentifier>{E5F83089-F19B-8AA5-3505-81D360041AC7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ISSE\Source\Separation Core">
+      <UniqueIdentifier>{7830F571-E511-0667-2742-5457184B419B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ISSE\Source\Virtual Users">
+      <UniqueIdentifier>{A83F798B-9C39-1A3C-9404-B2483EA57C3C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ISSE\Source\Plugin Support">
+      <UniqueIdentifier>{AAE4EA1A-1E81-7A0F-C3E5-BB7B500E8FFF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ISSE\Source\Layer\Actions">
+      <UniqueIdentifier>{9E9FDF0C-702D-8E15-2B91-8B041464E661}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ISSE\Source\Layer">
+      <UniqueIdentifier>{A6713A05-0095-2502-792A-F5F3DF2F8B64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ISSE\Source\Widgets">
+      <UniqueIdentifier>{CDFFDE1B-B4BB-CF8E-7D53-FFC80461A17F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ISSE\Source">
+      <UniqueIdentifier>{CC7AD7F7-9C50-4416-70D4-EFBEFBBDE6CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ISSE\Resources">
+      <UniqueIdentifier>{09073993-0913-2603-52A0-966DF03B5F4C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ISSE">
+      <UniqueIdentifier>{16AD36A5-DB71-5D66-F5B1-565A7EC183BC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JUCE Library Code">
+      <UniqueIdentifier>{7ED5A90E-41AF-A1EF-659B-37CEEAB9BA61}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\SeparationEngine.cpp">
+      <Filter>ISSE\Source\Separation Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\api\ISSEngine.cpp">
+      <Filter>ISSE\Source\Separation Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\PluginComponent.cpp">
+      <Filter>ISSE\Source\Separation Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AudioFormatReaderLoopSource.cpp">
+      <Filter>ISSE\Source\Separation Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AudioSink.cpp">
+      <Filter>ISSE\Source\Separation Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AudioSource.cpp">
+      <Filter>ISSE\Source\Separation Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\EnergyEnvelope.cpp">
+      <Filter>ISSE\Source\Separation Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\PluginThread.cpp">
+      <Filter>ISSE\Source\Separation Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\api\ISSFft.cpp">
+      <Filter>ISSE\Source\Separation Core\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\api\ISSStft.cpp">
+      <Filter>ISSE\Source\Separation Core\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\VirtualTestUser.cpp">
+      <Filter>ISSE\Source\Virtual Users</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\VirtualUser.cpp">
+      <Filter>ISSE\Source\Virtual Users</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\plugin\FilterGraph.cpp">
+      <Filter>ISSE\Source\Plugin Support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\plugin\GraphEditorPanel.cpp">
+      <Filter>ISSE\Source\Plugin Support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\plugin\MainHostWindow.cpp">
+      <Filter>ISSE\Source\Plugin Support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\plugin\PluginListWindow.cpp">
+      <Filter>ISSE\Source\Plugin Support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\FilePlayerProcessor.cpp">
+      <Filter>ISSE\Source\Plugin Support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Layer.cpp">
+      <Filter>ISSE\Source\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ImageLayer.cpp">
+      <Filter>ISSE\Source\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\VizRenderThread.cpp">
+      <Filter>ISSE\Source\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\MaskLayer.cpp">
+      <Filter>ISSE\Source\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\TrainingSelectionAction.cpp">
+      <Filter>ISSE\Source\Layer\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AddToMaskAction.cpp">
+      <Filter>ISSE\Source\Layer\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ClearMaskAction.cpp">
+      <Filter>ISSE\Source\Layer\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BoxBrushImgAction.cpp">
+      <Filter>ISSE\Source\Layer\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ClearImageAction.cpp">
+      <Filter>ISSE\Source\Layer\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\PaintBrushImgAction.cpp">
+      <Filter>ISSE\Source\Layer\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ColorMap.cpp">
+      <Filter>ISSE\Source\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\SpectrogramSettings.cpp">
+      <Filter>ISSE\Source\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Timeline.cpp">
+      <Filter>ISSE\Source\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\TransportComp.cpp">
+      <Filter>ISSE\Source\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\MainToolbar.cpp">
+      <Filter>ISSE\Source\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ToolbarProgress.cpp">
+      <Filter>ISSE\Source\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BrushPanel.cpp">
+      <Filter>ISSE\Source\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AboutPage.cpp">
+      <Filter>ISSE\Source\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ImgBinaryData.cpp">
+      <Filter>ISSE\Source\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ImgToolbarButton.cpp">
+      <Filter>ISSE\Source\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ToolbarItemFact.cpp">
+      <Filter>ISSE\Source\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ToolbarSlider.cpp">
+      <Filter>ISSE\Source\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AppCommandIDs.cpp">
+      <Filter>ISSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Main.cpp">
+      <Filter>ISSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DocWindow.cpp">
+      <Filter>ISSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\TimelineView.cpp">
+      <Filter>ISSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\MainContentComp.cpp">
+      <Filter>ISSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Track.cpp">
+      <Filter>ISSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\MultiTrack.cpp">
+      <Filter>ISSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\MultiPaintView.cpp">
+      <Filter>ISSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ProgramSettings.cpp">
+      <Filter>ISSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ThreadHelpers.cpp">
+      <Filter>ISSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ToolbarState.cpp">
+      <Filter>ISSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\NewProjectMenu.cpp">
+      <Filter>ISSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ISSLogger.cpp">
+      <Filter>ISSE\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\JuceLibraryCode\BinaryData.cpp">
+      <Filter>JUCE Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\JuceLibraryCode\include_juce_audio_basics.cpp">
+      <Filter>JUCE Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\JuceLibraryCode\include_juce_audio_devices.cpp">
+      <Filter>JUCE Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\JuceLibraryCode\include_juce_audio_formats.cpp">
+      <Filter>JUCE Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\JuceLibraryCode\include_juce_audio_processors.cpp">
+      <Filter>JUCE Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\JuceLibraryCode\include_juce_audio_utils.cpp">
+      <Filter>JUCE Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\JuceLibraryCode\include_juce_core.cpp">
+      <Filter>JUCE Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\JuceLibraryCode\include_juce_data_structures.cpp">
+      <Filter>JUCE Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\JuceLibraryCode\include_juce_events.cpp">
+      <Filter>JUCE Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\JuceLibraryCode\include_juce_graphics.cpp">
+      <Filter>JUCE Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\JuceLibraryCode\include_juce_gui_basics.cpp">
+      <Filter>JUCE Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\JuceLibraryCode\include_juce_gui_extra.cpp">
+      <Filter>JUCE Library Code</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\SeparationEngine.h">
+      <Filter>ISSE\Source\Separation Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\api\ISSEngine.h">
+      <Filter>ISSE\Source\Separation Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PluginComponent.h">
+      <Filter>ISSE\Source\Separation Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AudioFormatReaderLoopSource.h">
+      <Filter>ISSE\Source\Separation Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AudioSink.h">
+      <Filter>ISSE\Source\Separation Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AudioSource.h">
+      <Filter>ISSE\Source\Separation Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\EnergyEnvelope.h">
+      <Filter>ISSE\Source\Separation Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PluginThread.h">
+      <Filter>ISSE\Source\Separation Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\api\ISSPluginBase.h">
+      <Filter>ISSE\Source\Separation Core\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\api\ISSDefs.h">
+      <Filter>ISSE\Source\Separation Core\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\api\ISSFft.h">
+      <Filter>ISSE\Source\Separation Core\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\api\ISSMask.h">
+      <Filter>ISSE\Source\Separation Core\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\api\ISSRandom.h">
+      <Filter>ISSE\Source\Separation Core\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\api\ISSSink.h">
+      <Filter>ISSE\Source\Separation Core\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\api\ISSSource.h">
+      <Filter>ISSE\Source\Separation Core\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\api\ISSStft.h">
+      <Filter>ISSE\Source\Separation Core\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\api\Window.h">
+      <Filter>ISSE\Source\Separation Core\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\VirtualTestUser.h">
+      <Filter>ISSE\Source\Virtual Users</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\VirtualUser.h">
+      <Filter>ISSE\Source\Virtual Users</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\plugin\FilterGraph.h">
+      <Filter>ISSE\Source\Plugin Support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\plugin\GraphEditorPanel.h">
+      <Filter>ISSE\Source\Plugin Support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\plugin\MainHostWindow.h">
+      <Filter>ISSE\Source\Plugin Support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\plugin\PluginListWindow.h">
+      <Filter>ISSE\Source\Plugin Support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\FilePlayerProcessor.h">
+      <Filter>ISSE\Source\Plugin Support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Layer.h">
+      <Filter>ISSE\Source\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ImageLayer.h">
+      <Filter>ISSE\Source\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\VizRenderThread.h">
+      <Filter>ISSE\Source\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MaskLayer.h">
+      <Filter>ISSE\Source\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TrainingSelectionAction.h">
+      <Filter>ISSE\Source\Layer\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AddToMaskAction.h">
+      <Filter>ISSE\Source\Layer\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ClearMaskAction.h">
+      <Filter>ISSE\Source\Layer\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BoxBrushImgAction.h">
+      <Filter>ISSE\Source\Layer\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ClearImageAction.h">
+      <Filter>ISSE\Source\Layer\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PaintBrushImgAction.h">
+      <Filter>ISSE\Source\Layer\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ColorMap.h">
+      <Filter>ISSE\Source\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SpectrogramSettings.h">
+      <Filter>ISSE\Source\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Timeline.h">
+      <Filter>ISSE\Source\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TransportComp.h">
+      <Filter>ISSE\Source\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MainToolbar.h">
+      <Filter>ISSE\Source\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ToolbarProgress.h">
+      <Filter>ISSE\Source\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BrushPanel.h">
+      <Filter>ISSE\Source\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AboutPage.h">
+      <Filter>ISSE\Source\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Cursor.h">
+      <Filter>ISSE\Source\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ImgBinaryData.h">
+      <Filter>ISSE\Source\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ImgToolbarButton.h">
+      <Filter>ISSE\Source\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ToolbarItemFact.h">
+      <Filter>ISSE\Source\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ToolbarSlider.h">
+      <Filter>ISSE\Source\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppCommandIDs.h">
+      <Filter>ISSE\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Main.h">
+      <Filter>ISSE\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DocWindow.h">
+      <Filter>ISSE\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TimelineView.h">
+      <Filter>ISSE\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\JuceHeader.h">
+      <Filter>ISSE\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MainContentComp.h">
+      <Filter>ISSE\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Track.h">
+      <Filter>ISSE\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MultiTrack.h">
+      <Filter>ISSE\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MultiPaintView.h">
+      <Filter>ISSE\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ProgramSettings.h">
+      <Filter>ISSE\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ThreadHelpers.h">
+      <Filter>ISSE\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ToolbarState.h">
+      <Filter>ISSE\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XMLSerializable.h">
+      <Filter>ISSE\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\NewProjectMenu.h">
+      <Filter>ISSE\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ISSLogger.h">
+      <Filter>ISSE\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\JuceLibraryCode\AppConfig.h">
+      <Filter>JUCE Library Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\JuceLibraryCode\BinaryData.h">
+      <Filter>JUCE Library Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\JuceLibraryCode\JuceHeader.h">
+      <Filter>JUCE Library Code</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\src\FileIcon.icns">
+      <Filter>ISSE\Resources</Filter>
+    </None>
+    <None Include="..\..\..\src\ISSE-Icon.png">
+      <Filter>ISSE\Resources</Filter>
+    </None>
+    <None Include="..\..\..\src\about.txt">
+      <Filter>ISSE\Resources</Filter>
+    </None>
+    <None Include="..\..\..\COPYING">
+      <Filter>ISSE\Resources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include=".\resources.rc">
+      <Filter>JUCE Library Code</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
