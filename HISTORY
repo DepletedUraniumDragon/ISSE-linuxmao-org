@@ -1,0 +1,12 @@
+# Fedora 23 Workstation 64 bit.
+git clone https://github.com/linuxmao-org/ISSE.git isse-linuxmao-org
+git clone https://github.com/linuxmao-org/ISSE-extras.git isse-linuxmao-org-extras
+git clone -b 3.3-alpha1 https://gitlab.com/libeigen/eigen.git eigen-3.3-alpha1
+cd isse-linuxmao-org
+rm -rf sdks/eigen
+mv ../eigen-3.3-alpha1 sdks/eigen
+git submodule init
+vi .git/config
+# comment out eigen submodule
+git submodule update
+

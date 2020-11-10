@@ -1,9 +1,0 @@
-[submodule "sdks/juce"]
-	path = sdks/juce
-	url = git://github.com/WEAREROLI/JUCE.git
-[submodule "sdks/eigen"]
-	path = sdks/eigen
-	url = https://github.com/eigenteam/eigen-git-mirror.git
-[submodule "extras"]
-	path = extras
-	url = https://github.com/linuxmao-org/ISSE-extras.git
